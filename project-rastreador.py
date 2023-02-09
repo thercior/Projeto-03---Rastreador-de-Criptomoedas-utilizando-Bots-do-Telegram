@@ -11,7 +11,7 @@ locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 #Instanciando a classe da api e do bot
     #Lembrar de criar o arquivo token.txt inserido a chave token exclusiva do seu bot
 token = open('./token.txt').readline() #ler o token no arquivo token.
-id = open('./id.txt').readline() #ler o id da conversa com o bot
+id = open('./chat_id.txt').readline() #ler o id da conversa com o bot
 api = ApiCripto(url_base='https://api.coingecko.com/api/v3') # api de consulta da cripto moeda
 bot = TelegramBot(token=token, chat_id=id) # envia os parâmetros do bot para instância das classes criadas
 
