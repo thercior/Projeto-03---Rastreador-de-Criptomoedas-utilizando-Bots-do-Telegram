@@ -22,12 +22,15 @@ As bibliotecas utilizadas que se encontram no arquivo [requirements.txt](https:/
   - *python-telegram-bot para criação do Bot e envio de mensagens.*
   - *request para fazer requisição de API.*
 
+<div class = "text-justify">
+
 Deve-se também criar um bot do telegram. [Crie seu bot Telegram clicando aqui e seguindo estas instruções](https://canaltech.com.br/apps/como-criar-um-bot-no-telegram-botfather/)
 
 Após criar o bot, criar um token de acesso, e gravar em um arquivo token.txt que deve ficar na raiz do projeto. Este arquivo contendo o token do bot é necessário para o programa ter acesso ao bot do telegram criado.
 
   **OBSERVAÇÃO: Não compartilhe seu token com ninguém. É ele quem dá acesso e controle ao seu bot.**
 
+</div>
 
 <div class = "text-justify">
 
@@ -49,13 +52,18 @@ O Models é para criação e instanciação de Classes/Objetos e Métodos.
 O Projeto é o programa principal, que executa e roda a aplicação. Para rodar, basta executar no terminal:
   **python project-rastreador.py
 
-Após a execução, será pedido para informar
+Após a execução, será pedido para informar:
+ 
+</div>
 
  - *Id da criptomoeda*
  - *Valor mínimo de cotação para iniciar o rastreamento*
  - *Valor máximo de cotação para iniciar o rastreamento*
 
-Após informar, o programa começará a rodar e informará o valor da cotação da criptomoeda escolhida sempre o que os critérios forem obedecido.
-Para envio de cotações recorrente, deve-se importar o método Sleep da biblioteca time e definir um tempo de espera entre uma consulta e outra. Defina sleep(x), onde x é o tempo em segundos que você deseja entre uma consulta e outra.
+<div class = "text-justify">
+ 
+Após informar, o programa começará a rodar e informará o valor da cotação da criptomoeda escolhida sempre o que os critérios forem obedecido. Para envio de cotações recorrente, deve-se importar o método Sleep da biblioteca time e definir um tempo de espera entre uma consulta e outra. 
+
+Defina sleep(x), onde x é o tempo em segundos que você deseja entre uma consulta e outra.
 
 </div>
