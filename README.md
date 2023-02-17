@@ -8,7 +8,7 @@
 
 <div class = "text-justify">
 
-Projeto de um bot telegram para rastreamento de criptomoedas, desenvolvido para praticar os conhecimentos e habilidades adquiridos  junto ao curso Jornada Python da Python Academy, utilizando a linguagem Python.
+Projeto de um bot telegram para rastreamento de criptomoedas, desenvolvido para praticar os conhecimentos e habilidades adquiridos  junto ao [Curso Jornada Python da Python Academy](https://pythonacademy.com.br/jornada-python/), utilizando a linguagem Python e consulta de APIs.
 
 </div>
 
